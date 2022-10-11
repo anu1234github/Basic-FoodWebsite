@@ -1,0 +1,756 @@
+*{
+    margin: 0px;
+    padding: 0px;;
+}
+body{
+    overflow-x:hidden;
+}
+header{
+    width:100vw;
+    height:13vh;
+    background-color:rgba(0, 0, 0, 0.972);
+   
+}
+header nav pre  {    /*NAV*/
+    margin-left: 22px;
+    height:10vh;
+    padding: 19px;
+    /* padding-left:19px; */
+    line-height:60px;
+    word-spacing: 3vh;
+    color:rgb(255, 254, 253);
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:26px;
+    background-size: cover;  
+   
+}
+
+header nav pre a{     
+    display:inline-block;
+    vertical-align: top ;
+    color:rgb(255, 253, 253);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    transition:1s;
+}
+header nav pre a:hover{    /*Nav hover*/
+    transform:scale(1);
+    background-color: rgb(112, 101, 101);
+    height:8vh;
+}
+
+header nav .logo{   /*LOGO*/
+    z-index: 12;
+    float: right ;
+    right:20px;
+    position: relative;
+    /* vertical-align: top ; */
+    top:-107px;
+    width:90px;
+    height:70%;
+    border-radius: 80%;
+   
+    
+}
+.middle h1{     /*WELCOME*/
+    position: relative;
+    top: 70px;
+    font-weight: 900;
+    padding-top: 2px;
+    color:rgb(8, 8, 8);
+    text-align: center;
+    padding-left: 146px;
+    overflow: hidden; 
+    border-right: .1225em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .5em; 
+    animation: 
+      typing 3.5s steps(12, end) infinite,
+      blink-caret .6s steps(10,end);
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 50% }
+  }
+
+.middle h3{   /*GRAB SOME RECIPE*/ 
+    position: relative;
+    top:70px;
+    left:36px;
+    padding-top: 1rem;
+    color:rgb(8, 8, 8);
+    font-weight: 1px;
+    text-align: center;
+}
+.middle h4{    /*LOVE FOR FOOD*/
+    position: relative;
+    margin-top: 80px;
+    left:30px;
+    color:rgb(8, 8, 8);
+    font-weight: 1px;
+    text-align: center;
+
+}
+
+ .container1 {
+     margin-top: 130px;             /* FIRST BOX */
+    width:97vw;
+    height:70vh;   
+    padding-top: 45px;
+    padding-left: 45px;
+    background-color: rgb(195, 248, 248);
+    position:relative;
+    top:1px;
+    overflow: hidden;
+
+}
+.container1 .content h1{                   /*doozydchoosy*/
+    position: absolute;
+    font-family: 'Dancing Script', 'cursive';
+    font-family: 'Lobster', 'cursive';
+    font-family: 'Patua One', 'cursive';
+    font-family: 'Style Script', 'cursive';
+    font-weight: bolder;
+    font-size: 890%;
+    margin-top:14px;
+    left:660px;
+    color:rgb(197, 0, 33);
+}
+.container1 .content h3{             /*caught you*/
+    position: absolute;
+    font-family: 'Dancing Script', 'cursive';
+    font-family: 'Lobster', 'cursive';
+    font-family: 'Patua One', 'cursive';
+    font-family: 'Style Script', 'cursive';
+    font-weight: bolder;
+    font-size: 400%;
+    margin-top:181px;
+    left:956px;
+    color:rgb(235, 31, 72);
+}
+.container1 .content .fan {  /*fantasize */
+    position: absolute;
+    margin-top: 94px;
+    font-family: 'Dancing Script', 'cursive';
+    font-family: 'Lobster', 'cursive';
+    font-family: 'Patua One', 'cursive';
+    font-family: 'Style Script', 'cursive';
+    font-weight: bolder;
+    font-size: 40%;
+    display: block;
+    left:-248px;
+    color:rgb(221, 41, 77);
+    letter-spacing: 2px;
+    width:855px;
+
+}
+.container1 .content h4 {         /*scroll down*/
+    position: absolute;
+    margin-top: 319px;
+    font-family: 'Dancing Script', 'cursive';
+    font-family: 'Lobster', 'cursive';
+    font-family: 'Patua One', 'cursive';
+    font-family: 'Style Script', 'cursive';
+    font-weight: bolder;
+    font-weight: bolder;
+    font-size: 190%;
+    left:908px;
+    color:rgb(245, 44, 84);
+
+}
+
+
+.container1 .collection{   /*container1 image*/
+    display: flex;
+    flex-wrap: wrap;
+    padding:0px 4px;
+    transition: 2s;
+}
+.container1 .column {
+    flex:50%;
+    padding:0px 4px;
+    overflow: hidden;
+}
+.container1 .column  img {  /*image donut*/
+    
+    width:500px;
+    height:450px;
+    margin-top: 5px;
+    margin-left: 2px;
+    vertical-align: middle;
+    transition: all linear .2s;
+  
+  }
+  .container1 .column img.over{
+      position:absolute;
+      top:62px;
+      left:53px;
+      opacity:0px;
+  }
+  .container1 .collection  .column:hover img{
+      opacity:0;
+      transform: scale(.78);
+      background-image: url('./images/second.jpg');
+       width:500px;
+      height:450px;
+      opacity:9;
+
+  }
+  .container1 .collection .column:hover img.over{
+      opacity:0;
+  }
+
+.middle1 h2{  /*our special*/
+     
+    margin-top: 7rem;  
+    font-family:cursive ;
+    color:rgb(255, 179, 0);
+    font-size: 300%;
+    text-align: center;
+
+} 
+.middle1 h3{   /*stop staring*/
+    color:rgb(110, 12, 86);
+    font-size: 150%;
+    font-family:cursive ;
+    text-align: center;
+}
+.middle1 h5 {  /*grab them*/
+    color:rgb(255, 0, 136);
+    font-size: 130%;
+    font-family:cursive ;
+    text-align: center;
+}
+
+
+.container2{    /*SECOND BOX*/
+    width:100vw;
+    height:60vh; 
+    margin-top:5rem;
+    position:relative;
+    overflow: hidden; 
+    display:flex;
+    
+}    
+.container2 .column1 .section1 img{  /*cake*/
+    flex:1;
+    margin-left: 47px;
+    width:75%;
+    height:40vh;
+    transition:2s;
+} 
+.section1 .img :hover{
+    transform: scale(0.75);
+   width:70%;
+    z-index:2;
+} 
+.container2 .column1 .section1 .filling1 h2{ 
+    margin-top: 10px;
+    margin-left: -49px;
+    text-align: center;
+}
+.container2 .column1 .section1 .filling1 .button{
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    width:153px;
+    margin-left: 128px;
+    padding: 9px;
+} 
+.button:hover{
+    transform: scale(0.84);
+}
+.container2 .column2 .section2 img{  /*mint food*/
+    flex: 1;
+    width:70%;
+    height:40vh;
+    margin-left: 7px;
+    transition:2s;
+}
+.section2 .img :hover{
+    transform: scale(0.75);
+   width:90%;
+    z-index:1;
+} 
+.container2 .column2 .section2 .filling2 h2{
+    margin-top: 10px;
+    margin-left: -69px;
+    text-align: center;
+}
+.container2 .column2 .section2 .filling2 .button2{
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    margin-left: 102px;
+    padding: 9px;
+    width:153px;
+    margin-top: 14px;   
+} 
+.button2:hover{
+    transform: scale(0.84);
+}
+
+.container2 .column3 .section3 img{  /*icecream*/
+    flex: 1;
+    width:130%;
+    height:40vh;
+    margin-left: -60px;
+    
+}
+.section3 .img:hover{   
+    transform: scale(0.75);
+    width:-253px;
+    z-index:2;
+} 
+.container2 .column3 .section3 .filling3 h2{
+    margin-top: 8px;
+    margin-left: -2px;
+    text-align: center;
+
+}
+.container2 .column3 .section3 .filling3 .button3{
+    margin-left: 42px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 9px;
+    width:153px;
+    margin-top: 14px;
+    transition: 1s;
+} 
+.button3:hover{
+    transform: scale(.8);
+
+}
+.container2 .column4 .section4 img{    /*chocochips pastry*/
+    flex: 1;
+    width:80%;
+    height:40vh;
+    margin-left: 80px;
+    transition:2s;
+}
+.section4 .img :hover{
+    transform: scale(0.75);
+    width:30%;
+    z-index:1;
+} 
+.container2 .column4 .section4 .filling4 h2{
+    margin-top: 10px;
+    margin-left: 79px;
+    text-align: center;
+}
+.container2 .column4 .section4 .filling4 .button4{
+    margin-left: 129px;
+    /* padding-left: 2px; */
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 9px;
+    width:153px;
+    margin-top: 14px;
+    transition: 1s;
+
+} 
+.button4:hover{
+    transform: scale(0.84);
+    color:cyan;
+}
+/*Before 3rd container*/
+
+.middle2 h2{           /*pinch*/
+    margin-top: 6.9rem;
+    letter-spacing: .2rem;
+    line-height: .5rem;
+    font-family: 'Segoe Script',' Cursive',x ,'cursive';
+    color:rgb(179, 6, 6);
+    font-size: 300%;
+    text-align: center;
+
+}
+ 
+.middle2 h3{            /*splash*/
+    margin-top: 3rem;
+    padding-left:1px;
+    letter-spacing: .2rem;
+    line-height: 2.2rem;
+    font-family: 'Lucida Handwriting';
+    color:rgb(223, 44, 44);
+    font-size: 140%;
+    text-align: center;
+
+}
+.middle2 h4{                      /*Rush out*/
+    color:rgb(255, 179, 0);
+    letter-spacing: .2rem;
+    line-height: 2.2rem;
+    font-weight: 1px;
+    text-align: center;
+    font-size:120%;
+    font-family: 'Lucida Handwriting';
+}
+.middle2 h5 {                        /*awake appetite*/
+    color:rgb(255, 102, 0);
+    line-height: 2.2rem;
+    letter-spacing: .2rem;
+    font-size:120%;
+    text-align: center;
+    font-family: 'Lucida Handwriting';
+}
+.container3{                    /*container3*/
+    margin-top: 122px;
+    margin-bottom: 500px;
+    background-image: url('./images/cony.png');
+    background-attachment: fixed;
+    background-size: cover;
+    width:100%;
+    height:3260px;
+  background-color: rgb(0, 0, 0);
+    position: relative;
+    
+}
+.container3 .first p{  /*Before 3rd container Grab */
+    background-attachment:fixed;
+    position: relative;          
+    color:rgb(0, 0, 0);
+    padding-top: 390px;
+    text-align: center;
+    font-weight: 900%;
+    font-size: 340%;
+    font-family: 'Lucida Handwriting';
+    padding-left: 37px;
+
+}
+.container3 .box{   /*box sizes*/
+    width:100%;
+    height:720px;
+}
+.container3 .section-2{     /*eat and repeat block*/
+    background-image: url('./images/eat\ and\ repeat.png');
+    background-attachment: fixed;
+    font-family:'Lobster', 'cursive';
+    font-weight: lighter;
+    background-size: cover;
+
+}
+.container3 .section-3{   /*checked box*/
+
+    background-image:url('./images/b3.2.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container3 .section-3 p{  /*Dont miss*/
+    position:absolute;
+    top:2280px;
+    color:rgb(255, 179, 0);
+    padding-top:-37px;
+    padding-left:87px;
+    padding-right: 866px;
+    letter-spacing: 78px;
+    font-size:500%;
+    font-weight: bolder;
+}
+.container3 .section-2 h2{   /*hungry*/
+    position:absolute;
+    top:1520px;
+    color:rgb(209, 255, 5);
+    left:233px;
+    padding-top: -37px;
+    left:730px;
+    right:122px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 300%;
+    padding-left: 20px;
+}
+.container3 .section-2  p{   /*hungry content*/
+    position:absolute;
+    top:1640px;
+    color:rgb(251, 155, 0);
+    left:233px;
+    padding-top: -37px;
+    left:730px;
+    right:122px;
+    font-family: 'Lucida Handwriting';
+    text-align: center;
+    font-weight: bolder;
+    font-size: 210%;
+    padding-left: 20px;
+}
+
+.container3 .section-4{                     /*green block*/
+    background-image: url('./images/b2.png');
+    background-size: cover;
+}
+.container3 .section-4 h2{                 /*foodie*/ 
+    position:relative;
+    color:rgb(126, 7, 53);
+    left:937px;
+    padding-top: 156px;
+    text-align:justify;
+    font-weight: bolder;
+    font-size: 300%;
+    padding-right: 899px;
+} 
+.container3 .section-4 p {                /*foodie content*/
+    position:relative;
+    color:rgb(248, 241, 241);
+    left:833px;
+    padding-top: 61px;
+    text-align:justify;
+    font-weight: bolder;
+    font-size: 300%;
+    padding-right: 899px;
+
+}
+
+/*THIRD container section 4  Animation */
+ .container3 .ani{    
+    margin-top: -682px;
+    margin-left: 258px;       
+    
+    width:33%;
+    height:498px; 
+    background-image: url("./images/picture\ 5\ slide.jpg ");
+    position:relative;
+    background-size: 100% 100%;
+    border-color: rgb(0, 0, 0);
+    border-style:none;
+    border-radius: 367%;
+    animation: sllider 3.5s ease-in-out 1s infinite  ;
+    
+} 
+
+ @keyframes sllider  {
+    0%{ background-image: url("./images/chef\ 3.jpg ");}
+    20%{ background-image: url("./images/3.jpg ");}
+    25%{ background-image: url("./images/picture3.jpg ");}
+    30%{background-image: url("./images/picture\ 5\ slide.jpg");}
+    35%{background-image: url("./images/picture5\ slide.jpg "); }
+    40%{background-image: url("./images/co.1.jpg");}
+    45%{background-image: url("./images/clo2.jpg");}
+    50%{background-image: url("./images/3.jpg");}
+    55%{background-image: url("./images/col7.jpg");}
+    60%{background-image:url("./images/lava\ cake.PNG"); }
+    65%{background-image: url("./images/muffin.PNG"); }
+    70%{background-image: url("./images/col7.jpg"); }
+    75%{background-image: url("./images/col9.jpg"); }
+    80%{background-image: url("./images/col8.png"); }
+    85%{background-image: url("./images/col14.jpg"); }
+    90%{background-image: url("./images/Sweets_Ice_cream_Chocolate_Balls_556166_1132x1024.jpg"); }
+    100%{background-image: url("./images/Mint-Chocolate-Brownie-Cups-Featured-Image.jpg");}
+    
+
+} 
+
+.video-section{      /*video-section*/
+    margin-top: -22px;
+    text-align: center;
+    font-family: 'Lucida Handwriting';
+    font-size: 190%;
+    font-weight: bolder;
+    color:rgb(255, 106, 0);   
+}
+
+.video0 {                   /*video1*/
+    margin-left: 22px;
+    margin-top:114px;   
+}
+.video1 {                          /*video2*/
+    margin-left: 556px;
+    margin-top:-320px;   
+}
+.video2{                       /*video3*/
+    margin-left: 1100px;
+    margin-top:-320px;  
+
+}
+
+
+.container4{    /*map and register*/
+    height: 950px;
+    width:100%; 
+    background-image: url('./images/donut\ 3.jpg');
+    background-size: cover;
+    background-color: rgba(195, 186, 186, 0.322);
+    background-blend-mode:screen;
+    margin-top: 108px;
+    position:relative;  
+}  
+
+.container4 .register{   /*registration*/
+    margin-top: 58px;
+    text-align: center;
+    position: absolute;
+    height: 850px;
+    width:38%;
+    background-color: rgba(5, 0, 0, 0.397);
+    left:960px;
+    top:0px;  
+    box-shadow: 2px 2px 30px rgb(240, 248, 125);
+    border-radius:12%;
+    transition:2s;
+    
+}
+.register:hover{     /*place order hover*/
+    transform:scale(1);
+    background:rgb(248, 209, 209);
+    z-index: 2;
+
+}
+.container4 .register h2{   /*place order title*/
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:200%;
+    margin-bottom:34px;
+}
+ form#Register{   /*labels style*/
+     font-size: 150%;
+     color: rgb(0, 0, 0);
+     font-weight:bolder;
+     letter-spacing: 1px;
+     font-style: italic;
+ }
+ form#Register input#name{  
+     width:300px;
+     border:1px solid rgb(17, 16, 16);
+     border-radius:3px;
+     padding:7px;
+     background-color: rgba(160, 150, 150, 0.548);
+     box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+
+
+ }
+ 
+ input#submit{   /*submit button*/
+     padding:10px;
+     background-color: rgb(139, 236, 47);
+     color:black;
+     font-size: x-large;
+     cursor:pointer;
+     border:none;
+     box-shadow:1px 1px 15px rgba(248, 4, 4, 0.849);
+     transition: 1s;
+
+ }
+ input#submit:hover{
+     transform:scale(1);
+     background-color: rgb(238, 255, 0);
+
+ }
+ 
+ input[type=radio] {  /*radio button enlarge*/
+    border: 0px;
+    width: 14%;
+    height: 23px;
+}
+
+
+.container5{                        /*FIfth BOX*/
+    width:100%;
+    height:40vh; 
+    background-color:#000000;
+    margin-top:120px;
+    /* position:relative; */
+}
+.container5 #footer-content{
+   
+    height:40vh;
+    width:100%;
+    display:flex;
+    
+    
+}
+ .container5 #footer-content .footer-section { /*equal parts for each section*/
+  
+    margin-top: 1px;
+    flex: 1;
+   color:rgb(248, 246, 246);
+   padding:25px;
+   border:2px solid rgb(255, 255, 255);
+
+}
+.container5 #footer-content  .logo-text{       /*doozy*/
+    font-family: 'Lobster', cursive;
+    font-family: 'Style Script', cursive; 
+    color:rgb(208, 243, 10);
+}
+
+
+.container5 #footer-content  .logo-text span {    /*D*/
+    font-style: italic;
+   font-family: 'Style Script', cursive;
+    color:rgb(255, 179, 0);
+}
+.container5 #footer-content .footer-section p{  /*content 1st section*/
+     margin-top: 15px;
+    color:rgb(251, 251, 251);
+}
+.container5 #footer-content .footer-section .contact-num{  /*phone black*/
+    color:rgb(253, 249, 249);
+}
+.container5 #footer-content .footer-section .social a{  /*Icon black*/
+    color:rgb(250, 248, 248);
+}
+
+
+.container5 #footer-content .footer-section .contact-num span{  /*phone and info*/
+    display:block;
+    font-size: large;
+    margin-bottom: 10px;
+}  
+.container5 #footer-content .content .social a{  /*social-media icons*/ 
+    font-size: larger;
+    height:41px;
+    width:45px;
+    border:2px solid rgb(255, 255, 255);
+    padding-top: 4px;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 20%;
+    transition: all .2s;
+
+}
+.container5 #footer-content .content .social a:hover{ /*social media hover*/
+    border:2px solid rgb(40, 243, 4);
+    color:rgb(98, 196, 6);
+    transition: all .2s;
+}
+
+.container5 #footer-content .link  a { /*link*/
+    margin-bottom:5px;
+    padding-left: 100px;
+    display:block;
+    color:rgb(255, 249, 249);
+    text-decoration: none;
+    font-size: 1.2em;
+} 
+.container5 #footer-content .link  a:hover{ /*link hover*/
+    color:rgb(173, 190, 21);
+    margin-left: 12px;
+    transition:all .2s;
+}
+.container5 #footer-content  .link h2{
+    padding-left: 19px;
+    font-size:221%;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.container5 .footer-last{   /*SECOND FOOTER*/
+    width:100%;
+    height:15%;
+    background-color: #3f4144;    
+
+}
+
+ .footer-last .footer-bottom{
+    padding-top: 9px;   
+    width:100%;
+    height:6%;
+    color: rgb(0, 0, 0);
+   padding-left: 599px;
+    font-size:larger;
+    font-weight: bold;
+    
+}
+/*----------------------END------------------------------*/
